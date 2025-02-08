@@ -39,25 +39,18 @@ pip install spacy
 
 
 ## Usage
-
-1. Run the setup script:
-```bash
-python setup_spacy_models.py
-```
-2. Load models in your code:
-   ```bash
 import spacy
 
-Load English model
+# Load English model
 nlp_en = spacy.load('./data/models/en_core_web_sm')
 
-Load Chinese model (large)
+# Load Chinese model (large)
 nlp_zh = spacy.load('./data/models/zh_core_web_lg')
 
-Process text
+# Process text
 doc_en = nlp_en("This is a test sentence.")
 doc_zh = nlp_zh("这是一个测试句子。")
-```
+
 
 
 •Automated download and installation of Spacy models

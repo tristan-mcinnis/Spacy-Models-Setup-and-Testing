@@ -39,7 +39,8 @@ pip install spacy
 
 
 ## Usage
-	1.	Run the setup script:
+
+1. Run the setup script:
 ```bash
 python setup_spacy_models.py
 ```
@@ -56,8 +57,8 @@ nlp_zh = spacy.load('./data/models/zh_core_web_lg')
 Process text
 doc_en = nlp_en("This is a test sentence.")
 doc_zh = nlp_zh("这是一个测试句子。")
-
 ```
+
 
 •Automated download and installation of Spacy models
 •Custom directory storage
